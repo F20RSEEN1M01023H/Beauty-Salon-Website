@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+} 
+.Home_arrow{
+    font-family: "Poppins", sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    margin-left:-5px;
+}
+.text{
+    width: 90%;
+    color: white;
+}
+.text h4{
+    line-height: 150%;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.text P{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.first-col{
+    font-family: "Poppins", sans-serif;
+    /* border: 2px solid black; */
+    background: url("/assets/images/login-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+}
+.second-col{
+    /* border: 2px solid black; */
+    background-color:#1E1E1E;
+    padding:0px 50px 0px 50px;
+    padding-top: 0;
+    color: #F4F6FC;
+}
+form p{
+    font-size: 10px;
+    color: #F4F6FC;
+}
+form .input_login{
+    width: 90%;
+    margin-top: 20px;
+    padding: 5px;
+    color: #F4F6FC;
+    border: 1px solid #F4F6FC;
+    background-color: #1E1E1E;
+    font-size: 12px;
+}
+form .label_text{
+    font-size: 12px;
+}
+form .btn-login{
+    width: 90%;
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+    font-weight: 600;
+}
+form .already_account{
+    font-size: 12px;
+    color: #F4F6FC;
+}
+form .login_anchor{
+    color: chocolate;
+    font-size: 12px;
+}
