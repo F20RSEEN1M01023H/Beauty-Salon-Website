@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -99,4 +100,25 @@ header {
 
 .swiper-pagination-bullet-active {
     background-color: #ffffff;
+}
+.Explore_services{
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 180px;
+    padding: 7px 25px 7px 25px;
+}
+.salon_haven{
+    /* border: 1px solid black; */
+    width: 32%;
+    padding: 0;
+}
+
+.beauty_img{
+    width: 49%;
+}
+.beauty_img img{
+    object-fit: fill;
 }
