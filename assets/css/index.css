@@ -122,3 +122,37 @@ header {
 .beauty_img img{
     object-fit: fill;
 }
+.Explore_collection{
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 200px;
+    padding: 7px 25px 7px 25px;
+}
+.featured_cols{
+     width: 32%;
+     position: relative;
+     border-radius: 2px;
+}
+.feature_description{
+    width: 60%;
+    height: 130px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    left:20%;
+    text-align: center;
+}
+.transparent_vedio{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#C7647333; 
+
+}
