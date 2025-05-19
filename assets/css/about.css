@@ -78,81 +78,7 @@ header {
     width: 130px;
     padding: 7px 25px 7px 25px;
 }
-
-.some_text {
-    width: 70%;
-    margin: auto;
-}
-
-.color_span {
-    color: #FB7902;
-}
-
-/* Carousel swiper js  */
-.swiper-slide img {
-    object-fit: cover;
-}
-
-.swiper-pagination-bullet {
-    background-color: transparent;
-    outline: 2px solid white;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #ffffff;
-}
-
-.Explore_services {
-    background-color: #1E1E1E;
-    border: 1px solid #1E1E1E;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    width: 180px;
-    padding: 7px 25px 7px 25px;
-}
-
-.salon_haven {
-    /* border: 1px solid black; */
-    width: 32%;
-    padding: 0;
-}
-
-.beauty_img {
-    width: 49%;
-}
-
-.beauty_img img {
-    object-fit: fill;
-}
-
-.Explore_collection {
-    background-color: #1E1E1E;
-    border: 1px solid #1E1E1E;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
-    width: 200px;
-    padding: 7px 25px 7px 25px;
-}
-
-.featured_cols {
-    width: 32%;
-    position: relative;
-    border-radius: 2px;
-}
-
-.feature_description {
-    width: 60%;
-    height: 130px;
-    margin: auto;
-    padding: 20px;
-    background-color: #ffffff;
-    position: absolute;
-    bottom: 20px;
-    left: 20%;
-    text-align: center;
-}
+/* second section css */
 
 .transparent_vedio {
     top: 0;
@@ -170,4 +96,7 @@ h1 .play_button {
     font-size: 40px;
     letter-spacing: 20px;
     padding-top: 10px;
+}
+.color_span {
+    color: #FB7902;
 }
